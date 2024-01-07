@@ -8,13 +8,18 @@ untuk screenshoot tampilan keluhana  pelanggan ada di image
 ![image](public/images/keluhan_pelanggan.png)
 
 ## API
-untuk update status 
+#### untuk update status 
 http://127.0.0.1:8000/api/keluhan-pelanggan/{id}/update-status
 
-delete status
+#### delete status 
 http://127.0.0.1:8000/api/keluhan-pelanggan/{id}/delete-status
 
 
-##test
+## test CRUD
 php artisan test
 
+## migration 
+php artisan migrate 
+
+# seeder
+php artisan db:seed
